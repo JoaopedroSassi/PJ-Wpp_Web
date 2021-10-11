@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>WhatsApp Web - Clone</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+      <aside class="sidebar">
+         <div class="toolbar-container">
+            <img class="user-photo" src="img/avatar1.png" alt="Avatar 1">
+            <div class="auxicons-toolbar-container">
+               <i class="fas fa-spinner"></i>
+               <i class="fas fa-comment-alt"></i>
+               <i class="fas fa-ellipsis-v"></i>
+            </div>
+         </div>
+         <div class="notification-container">
+            <i class="fas fa-brll-slash"></i>
+            <p class="receive-notification">Receba notificações de novas mensagens</p>
+            <p class="activate-notification">
+               Ativar notificações na área de trabalho
+               <i class="fas fa-angle-right"></i>
+            </p>
+         </div>
+         <div class="search-container">
+            <i id="contact-search" class="fas fa-search"></i>
+            <input type="text" name="search" id="search" placeholder="Procurar ou começar uma nova conversa">
+         </div>
+         <div class="contact-container">
+            <div class="contact-box active-chat">
+               <img class="user-photo" src="img/avatar2.png" alt="Avatar 2">
+               <div class="user-info">
+                  <p class="user-name">Rita lee</p>
+                  <p class="user-message-preview">
+                     <i class="fas fa-check-double"></i>
+                     Olá, tudo bom?
+                  </p>
+               </div>
+               <div class="message-info">
+                  <p class="message-time">13:32</p>
+               </div>
+            </div>
+
+            <div class="contact-box">
+               <img class="user-photo" src="img/avatar3.png" alt="Avatar 3">
+               <div class="user-info">
+                  <p class="user-name">Leston Rey</p>
+                  <p class="user-message-preview">Enviou o trabalho?</p>
+               </div>
+               <div class="message-info">
+                  <p class="message-time">01:53</p>
+                  <p class="message-pending">6</p>
+               </div>
+            </div>
+
+            <div class="contact-box">
+               <img class="user-photo" src="img/avatar4.png" alt="Avatar 4">
+               <div class="user-info">
+                  <p class="user-name">Sônia Menor</p>
+                  <p class="user-message-preview">O balanço patrimonial ficou ótimo!</p>
+               </div>
+               <div class="message-info">
+                  <p class="message-time">20:38</p>
+                  <p class="message-pending">1</p>
+               </div>
+            </div>
+         </div>
+      </aside>
+      <main class="chat-container">
+         <nav class="chat-navbar">
+            <div class="contactinfo-container">
+               <img class="user-photo" src="img/avatar2.png" alt="Avatar 2">
+               <p class="user-name">Rita Lee</p>
+            </div>
+            <ul class="chattools-container">
+               <li><i class="fas fa-search"></i></li>
+               <li><i class="fas fa-paperclip"></i></li>
+               <li><i class="fas fa-ellipsis-v"></i></li>
+            </ul>
+         </nav>
+
+         <div class="messages-container">
+            <div class="bg-image"></div>
+            <div class="chat-message">
+               <p class="guest-message">Olá, boa tarde</p>
+               <p class="user-message">Salve</p>
+            </div>
+         </div>
+
+         <div class="sendmessage-container">
+            <i class="far fa-grin"></i>
+            <input id="chatmessage" class="userinput" type="text" name="message" placeholder="Digite uma mensagem">
+            <i class="fas fa-microphone"></i>
+         </div>
+      </main>
+   </div>
+   <!--Font awesome-->
+   <script src="https://kit.fontawesome.com/007def067f.js" crossorigin="anonymous"></script>
+</body>
+</html>
